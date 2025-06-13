@@ -6,7 +6,7 @@ Build a Chat App in 1 Hour
 
 Reference - [https://www.youtube.com/watch?v=sws1XBrKBzM]
 
-- WebSockets: ws for node.js and Browser Native Websocket
+- WebSockets: the low-level 'ws' package for server side and the native Browser (Websocket) API
 - Socket.io
 
 WebSockets are pretty low-level and developing real-time applications requires an additional layer over them, like the popular npm package called Socket.io
@@ -32,3 +32,22 @@ This is necessary because socket.io implements a custom protocol on top of WebSo
 ### Part 2: React JS, Express JS & Socket.io
 
 Reference - [https://www.youtube.com/watch?v=_IIca0mgH3U]
+
+- working with chat rooms
+- connecting to specific rooms with specific people talking about specific topics
+- And more importantly, we will now be working with React JS
+
+Features:
+
+- When a user sends a message in a room, it needs to be broadcasted to everyone else in the room
+- When a user joins a room, everyone else in the room should be notified
+- When a user leaves the room, everyone else in the room should be notified
+- Activity detection (eg: John is typing...)
+
+If you're interested in making this Chat App a full-fledged, portfolio project, do feel free to add the below features such as:
+
+- User Authentication
+- User Profiles (with profile pictures, display name)
+- Multi-media support (images, videos and audio messages)
+- Emojis and reactions
+- Message editing and deletion
